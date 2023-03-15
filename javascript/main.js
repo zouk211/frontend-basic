@@ -1,3 +1,7 @@
+// PS D:\Laptrinhcoban> cd .\frontend-basic\
+// PS D:\Laptrinhcoban\frontend-basic> cd .\json-server\
+// PS D:\Laptrinhcoban\frontend-basic\json-server> json-server -w -p 3001 .\db.json
+
 const path = require('path');
 
 // variable
