@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hiển thị danh sách sinh viên</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hiển thị danh sách sinh viên</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul,
+    li {
+      list-style: none;
+    }
+
+    .wrapper {
+      padding: 10px 20px;
+    }
+
+    .wrapper>h1 {
+      margin-bottom: 20px;
+    }
+
+    .student-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .student-item>img {
+      margin-right: 10px;
+      width: 70px;
+      border-radius: 10px;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
     <h1>Danh sách sinh viên</h1>
     <ul id="student-list">
       <!-- Danh sách sinh viên sẽ được chèn vào đây -->
     </ul>
-    <script src="main.js"></script>
-  </body>
+  </div>
+  <script src="main.js"></script>
+</body>
+
 </html>
